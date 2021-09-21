@@ -1,0 +1,79 @@
+@mixin typeface-1($size, $device: desktop) {
+  font-family: "Sora", sans-serif;
+
+  // H1
+  @if $size == h1 and $device == desktop {
+    font-size: 64px;
+    line-height: 100%;
+  } @else if $size == h1 and $device == mobile {
+    font-size: 36px;
+    line-height: 120%;
+  }
+
+  // H2
+  @else if $size == h2 and $device == desktop {
+    font-size: 52px;
+    line-height: 100%;
+  } @else if $size == h2 and $device == mobile {
+    font-size: 36px;
+    line-height: 120%;
+  }
+
+  // H3
+  @else if $size == h3 and $device == desktop {
+    font-size: 36px;
+    line-height: 120%;
+  } @else if $size == h3 and $device == mobile {
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  // H4
+  @else if $size == h4 and $device == desktop {
+    font-size: 24px;
+    line-height: 130%;
+  } @else if $size == h4 and $device == mobile {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  // H5
+  @else if $size == h5 and $device == desktop {
+    font-size: 18px;
+    line-height: 140%;
+  } @else if $size == h5 and $device == mobile {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+@mixin typeface-2($size: b2, $device: desktop) {
+  font-family: "Source Sans Pro", sans-serif;
+
+  // b1
+  @if $size == b1 and $device == desktop {
+    font-size: 24px;
+    line-height: 130%;
+  } @else if $size == b1 and $device == mobile {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  // b2
+  @if $size == b2 and $device == desktop {
+    font-size: 16px;
+    line-height: 140%;
+  } @else if $size == b2 and $device == mobile {
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  // b3
+  @if $size == b3 and $device == desktop {
+    font-size: 14px;
+    line-height: 150%;
+  } @else if $size == b3 and $device == mobile {
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
