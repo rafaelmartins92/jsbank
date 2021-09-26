@@ -36,6 +36,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 800;
 }
 
 .navbar-desktop-item-1 {
@@ -150,16 +151,129 @@ header {
 // MOBILE
 .navbar-mobile {
   display: none;
+  max-width: $container-xl;
+  margin: 0 auto;
+  padding: 10px 24px;
 
   @include responsive(sm) {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.hamburguer {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+  z-index: 800;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 36%;
+    left: 17%;
+    width: 70%;
+    height: 2px;
+    background-color: $primary-normal;
+
+    transition: 0.7s ease;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 64%;
+    left: 17%;
+    width: 70%;
+    height: 2px;
+    background-color: $primary-normal;
+
+    transition: 0.7s ease;
+  }
+}
+
+.active-hamburguer {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+  z-index: 800;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    width: 70%;
+    height: 2px;
+    background-color: $primary-normal;
+    transform: rotate(-135deg);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    width: 70%;
+    height: 2px;
+    transform: rotate(315deg);
+    background-color: $primary-normal;
   }
 }
 
 .menu-mobile {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate3d(0, -100px, 0);
+  background-color: $white-normal;
 
-  @include responsive(sm) {
-    display: block;
+  transition: 1s ease;
+}
+
+.active-menu-mobile {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.nav-list-mobile {
+  max-width: $container-xl;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link-mobile {
+  @include typeface-1(h3, desktop);
+  display: inline-block;
+  color: $gray-2;
+  padding: 16px 24px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 16px;
+    width: 0;
+    height: 2px;
+    background-color: $secondary-normal;
+
+    transition: 1s ease;
+  }
+
+  &:hover {
+    color: $primary-normal;
+
+    &::after {
+      width: 100%;
+    }
   }
 }
