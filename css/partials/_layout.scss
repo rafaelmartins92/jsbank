@@ -179,3 +179,21 @@ $container-sm: 540px;
     transform: translate3d(0, 30px, 0);
   }
 }
+
+// PEOPLE SECTION
+.list-item {
+  list-style: none;
+  position: relative;
+  padding: 8px 8px 8px 72px;
+  margin-bottom: 48px;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 64px;
+    height: 64px;
+  }
+}
