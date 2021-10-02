@@ -247,6 +247,23 @@ header {
   list-style: none;
   display: flex;
   flex-direction: column;
+
+  svg {
+    width: 36px;
+    height: 36px;
+
+    path {
+      stroke: $gray-7;
+
+      transition: 0.7s ease;
+    }
+
+    &:hover {
+      path {
+        stroke: $primary-normal;
+      }
+    }
+  }
 }
 
 .nav-link-mobile {
