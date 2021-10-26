@@ -1284,6 +1284,20 @@ header {
           transform: scale(1.05);
 }
 
+.bg-icon-contactless::after {
+  background-image: url("../svg/icon-contactless.svg");
+  background-size: cover;
+  -webkit-filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+          filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.bg-icon-contactless:hover::after {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .bg-icon-time::after {
   background-image: url("../svg/icon-time.svg");
   background-size: cover;
@@ -1766,6 +1780,97 @@ header {
   100% {
     -webkit-transform: translate3d(10px, -40px, 0);
             transform: translate3d(10px, -40px, 0);
+  }
+}
+
+.fignu3-card-verse {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform-box: fill-box;
+  -webkit-transform: translate3d(0, -40px, 0) rotate(0deg);
+          transform: translate3d(0, -40px, 0) rotate(0deg);
+  -webkit-animation: fignu3-card-verse-move 3s ease infinite alternate;
+          animation: fignu3-card-verse-move 3s ease infinite alternate;
+}
+
+@-webkit-keyframes fignu3-card-verse-move {
+  0% {
+    -webkit-transform: translate3d(0, -40px, 0) rotate(0deg);
+            transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 20px, 0) rotate(5deg);
+            transform: translate3d(0, 20px, 0) rotate(5deg);
+  }
+}
+
+@keyframes fignu3-card-verse-move {
+  0% {
+    -webkit-transform: translate3d(0, -40px, 0) rotate(0deg);
+            transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 20px, 0) rotate(5deg);
+            transform: translate3d(0, 20px, 0) rotate(5deg);
+  }
+}
+
+.fignu3-card-front {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform-box: fill-box;
+  -webkit-transform: translate3d(0, -40px, 0) rotate(0deg);
+          transform: translate3d(0, -40px, 0) rotate(0deg);
+  -webkit-animation: fignu3-card-front-move 3s ease 1s infinite alternate;
+          animation: fignu3-card-front-move 3s ease 1s infinite alternate;
+}
+
+@-webkit-keyframes fignu3-card-front-move {
+  0% {
+    -webkit-transform: translate3d(0, -40px, 0) rotate(0deg);
+            transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 20px, 0) rotate(-5deg);
+            transform: translate3d(0, 20px, 0) rotate(-5deg);
+  }
+}
+
+@keyframes fignu3-card-front-move {
+  0% {
+    -webkit-transform: translate3d(0, -40px, 0) rotate(0deg);
+            transform: translate3d(0, -40px, 0) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 20px, 0) rotate(-5deg);
+            transform: translate3d(0, 20px, 0) rotate(-5deg);
+  }
+}
+
+.fignu3-shadow {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform-box: fill-box;
+  fill-opacity: 0.2;
+  -webkit-animation: fignu3-shadow 3s ease 1s infinite alternate;
+          animation: fignu3-shadow 3s ease 1s infinite alternate;
+}
+
+@-webkit-keyframes fignu3-shadow {
+  0% {
+    fill-opacity: 0.2;
+  }
+  100% {
+    fill-opacity: 0.4;
+  }
+}
+
+@keyframes fignu3-shadow {
+  0% {
+    fill-opacity: 0.2;
+  }
+  100% {
+    fill-opacity: 0.4;
   }
 }
 /*# sourceMappingURL=styel.css.map */
