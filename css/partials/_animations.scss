@@ -297,3 +297,23 @@ $height-card: 0.64 * $width-card;
     fill-opacity: 0.4;
   }
 }
+
+// APP NUBANK SECTION
+.fignu4-letter-u,
+.fignu4-letter-n {
+  animation: fignu4-letter 4s ease infinite alternate;
+}
+
+@keyframes fignu4-letter {
+  0% {
+    stroke-width: 4;
+    stroke-dasharray: 0 400;
+    stroke-opacity: 1;
+  }
+  60%,
+  100% {
+    stroke-width: 4;
+    stroke-dasharray: 400 0;
+    stroke-opacity: 1;
+  }
+}

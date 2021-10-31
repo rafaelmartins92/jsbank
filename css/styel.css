@@ -479,6 +479,11 @@ a:hover {
   width: 100%;
 }
 
+.button-app:hover {
+  -webkit-filter: drop-shadow(0px 51px 80px rgba(169, 80, 196, 0.08)) drop-shadow(0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271)) drop-shadow(0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04)) drop-shadow(0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729));
+          filter: drop-shadow(0px 51px 80px rgba(169, 80, 196, 0.08)) drop-shadow(0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271)) drop-shadow(0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04)) drop-shadow(0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729));
+}
+
 .s-0 {
   margin: 0;
   padding: 0;
@@ -1871,6 +1876,40 @@ header {
   }
   100% {
     fill-opacity: 0.4;
+  }
+}
+
+.fignu4-letter-u,
+.fignu4-letter-n {
+  -webkit-animation: fignu4-letter 4s ease infinite alternate;
+          animation: fignu4-letter 4s ease infinite alternate;
+}
+
+@-webkit-keyframes fignu4-letter {
+  0% {
+    stroke-width: 4;
+    stroke-dasharray: 0 400;
+    stroke-opacity: 1;
+  }
+  60%,
+  100% {
+    stroke-width: 4;
+    stroke-dasharray: 400 0;
+    stroke-opacity: 1;
+  }
+}
+
+@keyframes fignu4-letter {
+  0% {
+    stroke-width: 4;
+    stroke-dasharray: 0 400;
+    stroke-opacity: 1;
+  }
+  60%,
+  100% {
+    stroke-width: 4;
+    stroke-dasharray: 400 0;
+    stroke-opacity: 1;
   }
 }
 /*# sourceMappingURL=styel.css.map */
