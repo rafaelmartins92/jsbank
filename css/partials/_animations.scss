@@ -317,3 +317,17 @@ $height-card: 0.64 * $width-card;
     stroke-opacity: 1;
   }
 }
+
+// INVITE SECTION
+.fignu5-ball1 {
+  animation: translate-ball 4s ease infinite alternate;
+}
+
+@keyframes translate-ball {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(200px, -100px, 0);
+  }
+}

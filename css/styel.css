@@ -301,6 +301,27 @@
   background-repeat: no-repeat;
 }
 
+.bg-invite {
+  height: 100vh;
+}
+
+.svg-invite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 960px) {
+  .svg-invite {
+    -webkit-transform: scale(1.5) translate(-50%, -50%);
+            transform: scale(1.5) translate(-50%, -50%);
+  }
+}
+
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
@@ -1910,6 +1931,33 @@ header {
     stroke-width: 4;
     stroke-dasharray: 400 0;
     stroke-opacity: 1;
+  }
+}
+
+.fignu5-ball1 {
+  -webkit-animation: translate-ball 4s ease infinite alternate;
+          animation: translate-ball 4s ease infinite alternate;
+}
+
+@-webkit-keyframes translate-ball {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(200px, -100px, 0);
+            transform: translate3d(200px, -100px, 0);
+  }
+}
+
+@keyframes translate-ball {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(200px, -100px, 0);
+            transform: translate3d(200px, -100px, 0);
   }
 }
 /*# sourceMappingURL=styel.css.map */
