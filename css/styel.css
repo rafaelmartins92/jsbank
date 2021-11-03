@@ -53,6 +53,30 @@
           align-items: center;
 }
 
+.flex-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.flex-space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .flex-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -320,6 +344,32 @@
     -webkit-transform: scale(1.5) translate(-50%, -50%);
             transform: scale(1.5) translate(-50%, -50%);
   }
+}
+
+footer {
+  background: linear-gradient(220.94deg, #a950c4 14.43%, #82269e 85.28%);
+}
+
+footer h4,
+footer p {
+  color: #fefbff;
+  font-weight: 300;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 12px;
+}
+
+.list a {
+  color: #bb71d2;
+}
+
+.bt-purple {
+  border-top: 1px solid #bb71d2;
 }
 
 h1 {
@@ -1395,6 +1445,11 @@ header {
 .icon:hover::after {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.icon-networks {
+  max-width: 48px;
+  padding: 8px;
 }
 
 .div-card {

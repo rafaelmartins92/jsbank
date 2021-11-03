@@ -60,6 +60,18 @@ $container-sm: 540px;
   align-items: center;
 }
 
+.flex-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -255,4 +267,31 @@ $container-sm: 540px;
   @include responsive(sm) {
     transform: scale(1.5) translate(-50%, -50%);
   }
+}
+
+// FOOTER
+footer {
+  background: linear-gradient(220.94deg, #a950c4 14.43%, #82269e 85.28%);
+
+  h4,
+  p {
+    color: $white-light;
+    font-weight: 300;
+  }
+}
+
+.list {
+  list-style: none;
+
+  li {
+    margin-bottom: 12px;
+  }
+
+  a {
+    color: $secondary-light;
+  }
+}
+
+.bt-purple {
+  border-top: 1px solid $secondary-light;
 }
