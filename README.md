@@ -20,9 +20,9 @@
 <h4 align="center">
   <p>Nubank Redesign</p>
 
-  <p>This is a Redesgin of Nubank webiste.</p>
+  <p>This is a Redesign of Nubank webiste.</p>
 
-  <p>I did it to improve my skill ins HTML, SASS, JavaScript and Animations.</p>
+  <p>I did it to improve my skill in HTML, SASS, JavaScript and Animations.</p>
 </h4>
 
 <p align="center">
