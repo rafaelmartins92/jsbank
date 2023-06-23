@@ -80,4 +80,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/rafa
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[demo]: https://nubank-rafaelmartins.netlify.app/
+[demo]: https://rafaelmartins92.github.io/nubank/
