@@ -142,6 +142,18 @@ $container-sm: 540px;
   overflow: hidden;
 }
 
+.list {
+  list-style: none;
+
+  li {
+    margin-block: 12px;
+  }
+}
+
+.bt-yellow {
+  border-top: 1px solid $primary-light;
+}
+
 // HERO SECTION
 .hero {
   height: 90vh;
@@ -206,15 +218,16 @@ $container-sm: 540px;
   position: relative;
   padding: 8px 8px 8px 72px;
   margin-bottom: 48px;
+  
 
   &::after {
     content: "";
     display: block;
     position: absolute;
-    top: 0;
-    left: -8px;
-    width: 64px;
-    height: 64px;
+    top: 2px;
+    left: 0;
+    width: 52px;
+    height: 52px;
   }
 }
 
@@ -263,7 +276,7 @@ $container-sm: 540px;
 .bg-invite {
   height: 100vh;
 
-  .content{
+  .content {
     max-width: 600px;
     text-align: center;
   }
@@ -280,31 +293,4 @@ $container-sm: 540px;
   @include responsive(sm) {
     transform: scale(1.5) translate(-50%, -50%);
   }
-}
-
-// FOOTER
-footer {
-  background: $gradient-1;
-
-  h4,
-  p {
-    color: $black-dark;
-    font-weight: 300;
-  }
-
-  a {
-    color: $black-light;
-  }
-}
-
-.list {
-  list-style: none;
-
-  li {
-    margin-bottom: 12px;
-  }
-}
-
-.bt-yellow {
-  border-top: 1px solid $primary-light;
 }

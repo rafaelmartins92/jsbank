@@ -6,6 +6,7 @@ a {
   transition: 0.5s ease;
 
   &:hover {
+    color: $primary-normal;
     opacity: 0.9;
   }
 }
@@ -20,6 +21,7 @@ a {
 
   &:hover {
     transform: scale(1.02);
+    color: $black-dark;
     opacity: 0.9;
   }
 }

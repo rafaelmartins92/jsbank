@@ -1,5 +1,5 @@
-<svg width="606" height="928" viewBox="0 0 606 928" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="fignu2" clip-path="url(#clip0_1169_1)">
+<svg viewBox="0 0 606 928" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="figjs2">
 <path id="fignu2-line" d="M308 742V915" stroke="url(#paint0_linear_1169_1)" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 10"/>
 <g id="fignu2-phone">
 <g id="Rectangle 4.3" filter="url(#filter0_d_1169_1)">
@@ -185,7 +185,7 @@
 <path id="Vector 482_3" d="M222.692 127.729V127.729C221.757 127.729 221 128.487 221 129.422C221 131.275 221 132.976 221 134.183C221 135.188 221.814 136 222.818 136H226.889C227.893 136 228.707 135.186 228.707 134.182V116.578C228.707 115.573 229.521 114.759 230.525 114.759H231.776C232.78 114.759 233.594 115.573 233.594 116.578V130.234C233.594 131.239 232.78 132.053 231.776 132.053H227.141C226.137 132.053 225.323 131.239 225.323 130.234V129.548C225.323 128.543 224.509 127.729 223.505 127.729H222.692Z" stroke="white" stroke-width="1.5"/>
 </g>
 </g>
-<g id="component-menu" clip-path="url(#clip1_1169_1)">
+<g id="component-menu" clip-path="url(#clip0_1169_1)">
 <rect id="Rectangle 426_3" x="168.835" y="580.896" width="82.0556" height="89.7483" rx="2.4231" fill="#FEF08A"/>
 <text id="Transferir" fill="#353436" xml:space="preserve" style="white-space: pre" font-family="Source Sans Pro" font-size="11.8349" letter-spacing="0em"><tspan x="177.711" y="660.668">Transferir</tspan></text>
 <rect id="Rectangle 427_2" x="354.249" y="580.896" width="82.0556" height="89.7483" rx="2.4231" fill="#FEF08A"/>
@@ -230,11 +230,11 @@
 <text id="Fatura atual" fill="#54B9C7" xml:space="preserve" style="white-space: pre" font-family="Source Sans Pro" font-size="11.8323" letter-spacing="0em"><tspan x="192.539" y="351.293">FATURA ATUAL </tspan></text>
 <text id="Limite dispon&#195;&#173;vel" fill="#3C3B3D" xml:space="preserve" style="white-space: pre" font-family="Source Sans Pro" font-size="8.87422" letter-spacing="0em"><tspan x="192.539" y="397.819">Limite dispon&#xed;vel</tspan></text>
 <text id="Cart&#195;&#163;o de cr&#195;&#169;dito" fill="#3C3B3D" xml:space="preserve" style="white-space: pre" font-family="Source Sans Pro" font-size="11.8323" letter-spacing="0em"><tspan x="231.308" y="270.523">Cart&#xe3;o de cr&#xe9;dito</tspan></text>
-<g id="R$ 150,64">
-<text fill="#54B9C7" xml:space="preserve" style="white-space: pre" font-family="Sora" font-size="23.6646" letter-spacing="0em"><tspan x="190.923" y="379.287">R$</tspan><tspan x="271.3" y="379.287">,64</tspan></text>
-<text fill="#54B9C7" xml:space="preserve" style="white-space: pre" font-family="Sora" font-size="23.6646" font-weight="bold" letter-spacing="0em"><tspan x="222.93" y="379.287"> 150</tspan></text>
+<g id="R$ 1500,64">
+<text fill="#54B9C7" xml:space="preserve" style="white-space: pre" font-family="Sora" font-size="23.6646" letter-spacing="0em"><tspan x="190.923" y="379.287">R$</tspan><tspan x="289.348" y="379.287">,64</tspan></text>
+<text fill="#54B9C7" xml:space="preserve" style="white-space: pre" font-family="Sora" font-size="23.6646" font-weight="bold" letter-spacing="0em"><tspan x="222.93" y="379.287"> 1500</tspan></text>
 </g>
-<text id="R$ 150,64_2" fill="#9EC249" xml:space="preserve" style="white-space: pre" font-family="Sora" font-size="8.87422" font-weight="bold" letter-spacing="0em"><tspan x="260.386" y="397.682">R$ 150,64</tspan></text>
+<text id="R$ 1500,64_2" fill="#9EC249" xml:space="preserve" style="white-space: pre" font-family="Sora" font-size="8.87422" font-weight="bold" letter-spacing="0em"><tspan x="260.386" y="397.682">R$ 1500,64</tspan></text>
 <g id="Group 324_3">
 <path id="Vector_52" d="M396.95 270.085C396.95 270.085 400.884 262.195 407.767 262.195C414.651 262.195 418.585 270.085 418.585 270.085C418.585 270.085 414.651 277.975 407.767 277.975C400.884 277.975 396.95 270.085 396.95 270.085Z" stroke="#3C3B3D" stroke-width="0.986024" stroke-linecap="round" stroke-linejoin="round"/>
 <path id="Vector_53" d="M407.767 273.044C409.397 273.044 410.718 271.719 410.718 270.085C410.718 268.451 409.397 267.127 407.767 267.127C406.138 267.127 404.817 268.451 404.817 270.085C404.817 271.719 406.138 273.044 407.767 273.044Z" stroke="#3C3B3D" stroke-width="0.986024" stroke-linecap="round" stroke-linejoin="round"/>
@@ -287,7 +287,7 @@
 <path id="Vector 482_4" d="M223.692 127.729V127.729C222.757 127.729 222 128.487 222 129.422C222 131.275 222 132.976 222 134.183C222 135.188 222.814 136 223.818 136H227.889C228.893 136 229.707 135.186 229.707 134.182V116.578C229.707 115.573 230.521 114.759 231.525 114.759H232.776C233.78 114.759 234.594 115.573 234.594 116.578V130.234C234.594 131.239 233.78 132.053 232.776 132.053H228.141C227.137 132.053 226.323 131.239 226.323 130.234V129.548C226.323 128.543 225.509 127.729 224.505 127.729H223.692Z" stroke="white" stroke-width="1.5"/>
 </g>
 </g>
-<g id="component-menu_2" clip-path="url(#clip2_1169_1)">
+<g id="component-menu_2" clip-path="url(#clip1_1169_1)">
 <rect id="Rectangle 426_4" x="168.835" y="580.897" width="82.0556" height="89.7483" rx="2.4231" fill="#FEF08A"/>
 <text id="Transferir_2" fill="#353436" xml:space="preserve" style="white-space: pre" font-family="Source Sans Pro" font-size="11.8349" letter-spacing="0em"><tspan x="177.711" y="660.669">Transferir</tspan></text>
 <rect id="Rectangle 427_4" x="354.249" y="580.897" width="82.0556" height="89.7483" rx="2.4231" fill="#FEF08A"/>
@@ -370,7 +370,7 @@
 <path id="Vector 482_5" d="M222.692 127.729V127.729C221.757 127.729 221 128.487 221 129.422C221 131.275 221 132.976 221 134.183C221 135.188 221.814 136 222.818 136H226.889C227.893 136 228.707 135.186 228.707 134.182V116.578C228.707 115.573 229.521 114.759 230.525 114.759H231.776C232.78 114.759 233.594 115.573 233.594 116.578V130.234C233.594 131.239 232.78 132.053 231.776 132.053H227.141C226.137 132.053 225.323 131.239 225.323 130.234V129.548C225.323 128.543 224.509 127.729 223.505 127.729H222.692Z" stroke="white" stroke-width="1.5"/>
 </g>
 </g>
-<g id="component-menu_3" clip-path="url(#clip3_1169_1)">
+<g id="component-menu_3" clip-path="url(#clip2_1169_1)">
 <rect id="Rectangle 426_5" x="167.835" y="580.897" width="82.0556" height="89.7483" rx="2.4231" fill="#FEF08A"/>
 <text id="Transferir_3" fill="#353436" xml:space="preserve" style="white-space: pre" font-family="Source Sans Pro" font-size="11.8349" letter-spacing="0em"><tspan x="176.711" y="660.669">Transferir</tspan></text>
 <rect id="Rectangle 427_5" x="353.249" y="580.897" width="82.0556" height="89.7483" rx="2.4231" fill="#FEF08A"/>
@@ -411,24 +411,18 @@
 <rect id="Rectangle 430_2" x="258.578" y="699.102" width="98.6245" height="4.93123" rx="2.46561" fill="#EDEAEF"/>
 </g>
 <g class="fignu2-icon1" id="fignu2-icon1">
-<g id="Rectangle 890" filter="url(#filter2_dddd_1169_1)">
-<rect x="435" y="543" width="140" height="140" rx="32.3077" fill="#353436"/>
-</g>
+<rect id="Rectangle 890" x="435" y="543" width="140" height="140" rx="32.3077" fill="#353436"/>
 <path id="Vector_94" d="M529 596L496 629L481 614" stroke="url(#paint7_linear_1169_1)" stroke-width="5.96174" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g class="fignu2-icon3" id="fignu2-icon3">
-<g id="Rectangle 884" filter="url(#filter3_dddd_1169_1)">
-<rect x="435" y="108" width="140" height="140" rx="32.3077" fill="#353436"/>
-</g>
+<rect id="Rectangle 884" x="435" y="108" width="140" height="140" rx="32.3077" fill="#353436"/>
 <g id="Group 289">
 <path id="Vector_95" d="M505 145V211" stroke="url(#paint8_linear_1169_1)" stroke-width="5.96174" stroke-linecap="round" stroke-linejoin="round"/>
 <path id="Vector_96" d="M520 157H497.5C494.715 157 492.045 158.106 490.075 160.075C488.106 162.044 487 164.715 487 167.5C487 170.285 488.106 172.955 490.075 174.924C492.045 176.894 494.715 178 497.5 178H512.5C515.285 178 517.955 179.106 519.925 181.075C521.894 183.044 523 185.715 523 188.5C523 191.285 521.894 193.955 519.925 195.924C517.955 197.894 515.285 199 512.5 199H487" stroke="url(#paint9_linear_1169_1)" stroke-width="5.96174" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <g class="fignu2-icon5" id="fignu2-icon5">
-<g id="Rectangle 879" filter="url(#filter4_dddd_1169_1)">
-<rect x="34" y="188" width="140" height="140" rx="32.3077" fill="#353436"/>
-</g>
+<rect id="Rectangle 879" x="34" y="188" width="140" height="140" rx="32.3077" fill="#353436"/>
 <path id="Vector_97" d="M104 288C104 288 128 276 128 258V237L104 228L80 237V258C80 276 104 288 104 288Z" stroke="url(#paint10_linear_1169_1)" stroke-width="5.96174" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
@@ -443,78 +437,6 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1169_1" result="shape"/>
 </filter>
 <filter id="filter1_dddd_1169_1" x="64" y="14" width="488" height="846" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="2.30969"/>
-<feGaussianBlur stdDeviation="1.81152"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.0278729 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="6.38599"/>
-<feGaussianBlur stdDeviation="5.00862"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.04 0"/>
-<feBlend mode="normal" in2="effect1_dropShadow_1169_1" result="effect2_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="15.375"/>
-<feGaussianBlur stdDeviation="12.0588"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.0521271 0"/>
-<feBlend mode="normal" in2="effect2_dropShadow_1169_1" result="effect3_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="51"/>
-<feGaussianBlur stdDeviation="40"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.08 0"/>
-<feBlend mode="normal" in2="effect3_dropShadow_1169_1" result="effect4_dropShadow_1169_1"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect4_dropShadow_1169_1" result="shape"/>
-</filter>
-<filter id="filter2_dddd_1169_1" x="355" y="514" width="300" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="2.30969"/>
-<feGaussianBlur stdDeviation="1.81152"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.0278729 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="6.38599"/>
-<feGaussianBlur stdDeviation="5.00862"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.04 0"/>
-<feBlend mode="normal" in2="effect1_dropShadow_1169_1" result="effect2_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="15.375"/>
-<feGaussianBlur stdDeviation="12.0588"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.0521271 0"/>
-<feBlend mode="normal" in2="effect2_dropShadow_1169_1" result="effect3_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="51"/>
-<feGaussianBlur stdDeviation="40"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.08 0"/>
-<feBlend mode="normal" in2="effect3_dropShadow_1169_1" result="effect4_dropShadow_1169_1"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect4_dropShadow_1169_1" result="shape"/>
-</filter>
-<filter id="filter3_dddd_1169_1" x="355" y="79" width="300" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="2.30969"/>
-<feGaussianBlur stdDeviation="1.81152"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.0278729 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="6.38599"/>
-<feGaussianBlur stdDeviation="5.00862"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.04 0"/>
-<feBlend mode="normal" in2="effect1_dropShadow_1169_1" result="effect2_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="15.375"/>
-<feGaussianBlur stdDeviation="12.0588"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.0521271 0"/>
-<feBlend mode="normal" in2="effect2_dropShadow_1169_1" result="effect3_dropShadow_1169_1"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="51"/>
-<feGaussianBlur stdDeviation="40"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.992157 0 0 0 0 0.878431 0 0 0 0 0.278431 0 0 0 0.08 0"/>
-<feBlend mode="normal" in2="effect3_dropShadow_1169_1" result="effect4_dropShadow_1169_1"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect4_dropShadow_1169_1" result="shape"/>
-</filter>
-<filter id="filter4_dddd_1169_1" x="-46" y="159" width="300" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="2.30969"/>
@@ -583,15 +505,12 @@
 <stop offset="1" stop-color="#CA8A04"/>
 </linearGradient>
 <clipPath id="clip0_1169_1">
-<rect width="606" height="928" fill="white"/>
-</clipPath>
-<clipPath id="clip1_1169_1">
 <rect width="302.888" height="89.6548" fill="white" transform="translate(157 580.896)"/>
 </clipPath>
-<clipPath id="clip2_1169_1">
+<clipPath id="clip1_1169_1">
 <rect width="302.888" height="89.6548" fill="white" transform="translate(157 580.897)"/>
 </clipPath>
-<clipPath id="clip3_1169_1">
+<clipPath id="clip2_1169_1">
 <rect width="302.888" height="89.6548" fill="white" transform="translate(156 580.897)"/>
 </clipPath>
 </defs>

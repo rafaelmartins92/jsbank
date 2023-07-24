@@ -170,6 +170,8 @@
   cursor: pointer;
 
   &:hover {
+    transform: scale(1.05);
+
     &::after {
       transform: scale(1.05);
     }

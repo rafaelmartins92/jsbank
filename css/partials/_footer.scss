@@ -1,0 +1,43 @@
+footer {
+  background: $gradient-1;
+
+  @include responsive(sm) {
+    .ml-4 {
+      margin-left: 0;
+    }
+  }
+
+  section {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  h4,
+  p {
+    color: $black-dark;
+  }
+
+  a {
+    color: $black-light;
+
+    transition: 0.5s ease;
+
+    &:hover {
+      color: $white-dark;
+    }
+  }
+
+  .social-links {
+    a {
+      &:hover {
+        path {
+          stroke: $white-dark;
+        }
+      }
+
+      path {
+        transition: 0.5s ease;
+      }
+    }
+  }
+}
