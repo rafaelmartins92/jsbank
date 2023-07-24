@@ -1,12 +1,30 @@
 .dropshadow {
-  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+  filter: drop-shadow(
+      0px 2.309687852859497px 3.623039960861206px rgba(253, 224, 71, 0.03)
+    )
+    drop-shadow(
+      0px 6.38599157333374px 10.017241477966309px rgba(253, 224, 71, 0.04)
+    )
+    drop-shadow(
+      0px 15.375007629394531px 24.117658615112305px rgba(253, 224, 71, 0.05)
+    )
+    drop-shadow(0px 51px 80px rgba(253, 224, 71, 0.08));
 }
 
 .bg-icon-mobile {
   &::after {
     background-image: url("../svg/icon-mobile.svg");
     background-size: cover;
-    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+    filter: drop-shadow(
+        0px 2.309687852859497px 3.623039960861206px rgba(253, 224, 71, 0.03)
+      )
+      drop-shadow(
+        0px 6.38599157333374px 10.017241477966309px rgba(253, 224, 71, 0.04)
+      )
+      drop-shadow(
+        0px 15.375007629394531px 24.117658615112305px rgba(253, 224, 71, 0.05)
+      )
+      drop-shadow(0px 51px 80px rgba(253, 224, 71, 0.08));
 
     transition: 0.5s ease;
   }
@@ -22,7 +40,16 @@
   &::after {
     background-image: url("../svg/icon-contactless.svg");
     background-size: cover;
-    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+    filter: drop-shadow(
+        0px 2.309687852859497px 3.623039960861206px rgba(253, 224, 71, 0.03)
+      )
+      drop-shadow(
+        0px 6.38599157333374px 10.017241477966309px rgba(253, 224, 71, 0.04)
+      )
+      drop-shadow(
+        0px 15.375007629394531px 24.117658615112305px rgba(253, 224, 71, 0.05)
+      )
+      drop-shadow(0px 51px 80px rgba(253, 224, 71, 0.08));
 
     transition: 0.5s ease;
   }
@@ -38,7 +65,16 @@
   &::after {
     background-image: url("../svg/icon-time.svg");
     background-size: cover;
-    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+    filter: drop-shadow(
+        0px 2.309687852859497px 3.623039960861206px rgba(253, 224, 71, 0.03)
+      )
+      drop-shadow(
+        0px 6.38599157333374px 10.017241477966309px rgba(253, 224, 71, 0.04)
+      )
+      drop-shadow(
+        0px 15.375007629394531px 24.117658615112305px rgba(253, 224, 71, 0.05)
+      )
+      drop-shadow(0px 51px 80px rgba(253, 224, 71, 0.08));
 
     transition: 0.5s ease;
   }
@@ -54,7 +90,16 @@
   &::after {
     background-image: url("../svg/icon-config.svg");
     background-size: cover;
-    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+    filter: drop-shadow(
+        0px 2.309687852859497px 3.623039960861206px rgba(253, 224, 71, 0.03)
+      )
+      drop-shadow(
+        0px 6.38599157333374px 10.017241477966309px rgba(253, 224, 71, 0.04)
+      )
+      drop-shadow(
+        0px 15.375007629394531px 24.117658615112305px rgba(253, 224, 71, 0.05)
+      )
+      drop-shadow(0px 51px 80px rgba(253, 224, 71, 0.08));
 
     transition: 0.5s ease;
   }
@@ -70,7 +115,16 @@
   &::after {
     background-image: url("../svg/icon-card.svg");
     background-size: cover;
-    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+    filter: drop-shadow(
+        0px 2.309687852859497px 3.623039960861206px rgba(253, 224, 71, 0.03)
+      )
+      drop-shadow(
+        0px 6.38599157333374px 10.017241477966309px rgba(253, 224, 71, 0.04)
+      )
+      drop-shadow(
+        0px 15.375007629394531px 24.117658615112305px rgba(253, 224, 71, 0.05)
+      )
+      drop-shadow(0px 51px 80px rgba(253, 224, 71, 0.08));
 
     transition: 0.5s ease;
   }
@@ -86,7 +140,16 @@
   &::after {
     background-image: url("../svg/icon-check.svg");
     background-size: cover;
-    filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
+    filter: drop-shadow(
+        0px 2.309687852859497px 3.623039960861206px rgba(253, 224, 71, 0.03)
+      )
+      drop-shadow(
+        0px 6.38599157333374px 10.017241477966309px rgba(253, 224, 71, 0.04)
+      )
+      drop-shadow(
+        0px 15.375007629394531px 24.117658615112305px rgba(253, 224, 71, 0.05)
+      )
+      drop-shadow(0px 51px 80px rgba(253, 224, 71, 0.08));
     width: 40px;
     height: 40px;
     top: 16px;
@@ -103,7 +166,6 @@
 }
 
 .icon {
-  filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
   transition: 0.5s ease;
   cursor: pointer;
 

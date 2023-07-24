@@ -1,11 +1,10 @@
 // Brand colors
-$primary-normal: #82269e;
-$primary-dark: #701f88;
-$primary-light: #9c4fb4;
+$primary-normal: #facc15;
+$primary-dark: #ca8a04;
+$primary-light: #fef08a;
 
-$secondary-normal: #a950c4;
-$secondary-dark: #9142a8;
-$secondary-light: #bb71d2;
+// Gradients
+$gradient-1: linear-gradient(221deg, #facc15 0%, #ca8a04 100%);
 
 // Neutral colors
 $black-normal: #232224;
@@ -13,8 +12,8 @@ $black-dark: #161617;
 $black-light: #353436;
 
 $white-normal: #f7f2fa;
-$white-dark: #edeaef;
-$white-light: #fefbff;
+$white-dark: #fefbff;
+$white-light: #edeaef;
 
 // Gray scale
 $gray-1: #454446;

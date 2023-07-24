@@ -72,6 +72,14 @@ $container-sm: 540px;
   align-items: center;
 }
 
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -217,7 +225,7 @@ $container-sm: 540px;
   align-items: center;
   position: relative;
   border-radius: 50px;
-  background-color: $white-normal;
+  background-color: $black-normal;
 
   @include responsive(sm) {
     flex-direction: column;
@@ -254,6 +262,11 @@ $container-sm: 540px;
 // INVITE SECTION
 .bg-invite {
   height: 100vh;
+
+  .content{
+    max-width: 600px;
+    text-align: center;
+  }
 }
 
 .svg-invite {
@@ -271,12 +284,16 @@ $container-sm: 540px;
 
 // FOOTER
 footer {
-  background: linear-gradient(220.94deg, #a950c4 14.43%, #82269e 85.28%);
+  background: $gradient-1;
 
   h4,
   p {
-    color: $white-light;
+    color: $black-dark;
     font-weight: 300;
+  }
+
+  a {
+    color: $black-light;
   }
 }
 
@@ -286,12 +303,8 @@ footer {
   li {
     margin-bottom: 12px;
   }
-
-  a {
-    color: $secondary-light;
-  }
 }
 
-.bt-purple {
-  border-top: 1px solid $secondary-light;
+.bt-yellow {
+  border-top: 1px solid $primary-light;
 }

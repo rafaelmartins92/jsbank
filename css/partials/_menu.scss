@@ -10,11 +10,11 @@ header {
 }
 
 .active-header {
-  background-color: $white-normal;
-  box-shadow: 0px 51px 80px rgba(169, 80, 196, 0.08),
-    0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271),
-    0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04),
-    0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+  background-color: $black-normal;
+  box-shadow: 0px 51px 80px rgba(253, 224, 71, 0.08),
+    0px 15.375px 24.1177px rgba(253, 224, 71, 0.0521271),
+    0px 6.38599px 10.0172px rgba(253, 224, 71, 0.04),
+    0px 2.30969px 3.62304px rgba(253, 224, 71, 0.0278729);
 }
 
 // DESKTOP
@@ -94,14 +94,14 @@ header {
 }
 
 .dropdown-menu {
-  background-color: $white-light;
+  background-color: $black-light;
   border-radius: 16px;
   list-style-type: none;
   padding: 16px 24px;
-  box-shadow: 0px 51px 80px rgba(169, 80, 196, 0.08),
-    0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271),
-    0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04),
-    0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+  box-shadow: 0px 51px 80px rgba(253, 224, 71, 0.08),
+    0px 15.375px 24.1177px rgba(253, 224, 71, 0.0521271),
+    0px 6.38599px 10.0172px rgba(253, 224, 71, 0.04),
+    0px 2.30969px 3.62304px rgba(253, 224, 71, 0.0278729);
   position: absolute;
   top: 48px;
   left: 24px;
@@ -137,7 +137,7 @@ header {
     left: 0;
     width: 0%;
     height: 2px;
-    background-color: $secondary-normal;
+    background-color: $primary-normal;
 
     transition: 0.5s ease;
   }
@@ -234,7 +234,7 @@ header {
   opacity: 0;
   pointer-events: none;
   transform: translate3d(0, -100px, 0);
-  background-color: $white-normal;
+  background-color: $black-normal;
 
   transition: 1s ease;
 }
@@ -282,7 +282,7 @@ header {
     left: 16px;
     width: 0;
     height: 2px;
-    background-color: $secondary-normal;
+    background-color: $primary-normal;
 
     transition: 1s ease;
   }

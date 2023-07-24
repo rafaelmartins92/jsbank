@@ -24,7 +24,7 @@
   max-width: 420px;
   padding: 24px 36px;
   border-radius: 50px;
-  background-color: $white-normal;
+  background-color: $black-normal;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -81,5 +81,9 @@
 }
 
 .photo-5 {
-  background-image: url("../img/people1.png");
+  background-image: url("../img/people5.png");
+}
+
+.photo-6 {
+  background-image: url("../img/people6.png");
 }

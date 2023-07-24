@@ -79,7 +79,7 @@
 }
 
 h1 {
-  color: $black-dark;
+  color: $white-dark;
 
   @include typeface-1(h1, desktop);
 
@@ -89,7 +89,7 @@ h1 {
 }
 
 h2 {
-  color: $black-dark;
+  color: $white-dark;
 
   @include typeface-1(h2, desktop);
 
@@ -99,7 +99,7 @@ h2 {
 }
 
 h3 {
-  color: $black-dark;
+  color: $white-dark;
 
   @include typeface-1(h3, desktop);
 
@@ -109,7 +109,7 @@ h3 {
 }
 
 h4 {
-  color: $black-dark;
+  color: $white-dark;
 
   @include typeface-1(h4, desktop);
 
@@ -120,11 +120,7 @@ h4 {
 
 h5 {
   text-transform: uppercase;
-  background: linear-gradient(
-    220.94deg,
-    $secondary-normal 14.43%,
-    $primary-normal 85.28%
-  );
+  background: $gradient-1;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -138,7 +134,7 @@ h5 {
 }
 
 p {
-  color: $gray-3;
+  color: $white-light;
 
   @include typeface-1(b2, desktop);
 
@@ -148,7 +144,7 @@ p {
 }
 
 strong {
-  color: $black-dark;
+  color: $white-dark;
 
   @include typeface-1(b2, desktop);
 
@@ -159,7 +155,7 @@ strong {
 
 .bold {
   font-weight: bold;
-  color: $black-light;
+  color: $white-light;
 }
 
 .text-center {

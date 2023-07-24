@@ -23,17 +23,13 @@ body {
 
   scroll-behavior: smooth;
 
-  background-color: $white-dark;
+  background-color: $black-dark;
 }
 
 svg,
 img {
   display: block;
   width: 100%;
-}
-
-.border {
-  border: 1px solid red;
 }
 
 @import "partials/menu";

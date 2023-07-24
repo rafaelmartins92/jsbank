@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="svg/logonu.svg" />
+    <img alt="Logo" src="svg/logojs.svg" />
     <br>
 </h1>
 
@@ -18,11 +18,10 @@
 </p>
 
 <h4 align="center">
-  <p>Nubank Redesign</p>
+  <p>JSbank</p>
 
-  <p>This is a Redesign of Nubank webiste.</p>
-
-  <p>I did it to improve my skill in HTML, SASS, JavaScript and Animations.</p>
+  <p>This is a study project to improve my skills in HTML, SASS and JavaScript.
+</p>
 </h4>
 
 <p align="center">
@@ -33,7 +32,7 @@
 </p>
 
 <p align="center">
-  <img alt="Scene" src="img/portfolio-scene---nubank@2x.png">
+  <img alt="Scene" src="img/portfolio-scene---jsbank@2x.png">
 </p>
 
 ## :rocket: Technologies
@@ -49,7 +48,7 @@ This project was developed with the following technologies:
 
 You can try it here:
 
-- [Nubank - Redesign][demo]
+- [JSbank][demo]
 
 ## :information_source: How to use
 
@@ -57,10 +56,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) instal
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rafaelmartins92/nubank.git
+$ git clone https://github.com/rafaelmartins92/jsbank.git
 
 # Go into the repository
-$ cd nubank
+$ cd jsbank
 
 # Go to index.html
 # Right click on it
@@ -69,7 +68,7 @@ $ cd nubank
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/rafaelmartins92/nubank/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/rafaelmartins92/jsbank/blob/master/LICENSE) for more information.
 
 ---
 
@@ -80,4 +79,5 @@ This project is under the MIT license. See the [LICENSE](https://github.com/rafa
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[demo]: https://rafaelmartins92.github.io/nubank/
+
+[demo]:
