@@ -32,7 +32,7 @@
 </p>
 
 <p align="center">
-  <img alt="Scene" src="img/portfolio-scene---jsbank@2x.png">
+  <img alt="Scene" src="img/portfolio-scene-jsbank@2x.png">
 </p>
 
 ## :rocket: Technologies
@@ -80,4 +80,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/rafa
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-[demo]:
+[demo]: https://rafaelmartins92.github.io/jsbank/

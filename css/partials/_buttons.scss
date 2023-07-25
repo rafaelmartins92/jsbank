@@ -19,6 +19,11 @@ a {
 
   transition: 0.3s ease;
 
+  @include responsive(sm) {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
   &:hover {
     transform: scale(1.02);
     color: $black-dark;
